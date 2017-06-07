@@ -1,0 +1,80 @@
+<!--
+ 	Versión mejorada
+	* Melitza Mondragón
+	* Yeison Murillo 
+	* Date 06/06/2017
+-->
+<!DOCTYPE html>
+<html>
+		<head>
+			<title>Game</title>
+			<meta charset="utf-8">
+            <script src="bootstrap/js/jquerymin.js"></script>
+			<script src="bootstrap/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        	<script src="js/js.js"></script><!--Conexion con el js ojo sin esto no funciona-->
+        
+		</head>
+
+		<body style="background-color:#21fffa;"><!--Aquí se le esta dando el color de fondo-->
+
+			<div class="container">
+				<div class="col-xs-2 col-md-2 col-lg-2">
+					<div class="row">
+					 <br><div class="col-xs-1 col-md-1 col-lg-1 " ><button type="button" class="btn btn-success disabled">Score <span id ="score" >0</span></button><br></div></div><!--boton de puntos-->
+
+					 <div class="row">
+						<div  style="width:1080px;  height:700px;" class="col-xs-5 col-md-5 col-lg-5 well"  data-toggle="modal-content" data-target="#myModal">
+							
+				
+		                   <center>
+		                    <div class="modal full screen-modal fade" id="myModal" role="dialog">
+			                    <div class="modal-dialog modal-lg">
+			                    
+			                      <div class="modal-content">
+			                        <div class="modal-header">
+			                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			                          <h3><b><div id="pregunta"> x</div></b></h3>
+			                        </div>
+			                        <div class="modal-body">
+
+			                        	<input type="hidden" id="num_array">
+
+			                        	
+			                            <div class="panel panel-success" id="a" data-dismiss="modal" onclick="respuestas(this.id);"> a </div><br>
+										<div class="panel panel-info" id="b" data-dismiss="modal" onclick="respuestas(this.id);">b</div><br>
+										<div class="panel panel-info" id="c" data-dismiss="modal" onclick="respuestas(this.id);">c</div><br>
+										
+			                        </div>
+			                        <div class="modal-footer">
+
+			                          <button type="button" class="close" data-dismiss="modal">&times;Cerrar</button>
+			                        </div>
+			                      </div>
+			                      
+			                    </div>
+		                    </div>
+		  
+		                   </center>
+
+
+					<div style="width: 950px;  border-style: none; overflow: none; " id="cont_frutas"></div>
+
+<div id="nivel"></div>
+
+					
+			</div>
+
+
+	<!--ste es mi reproductor	de musica><EMBED SRC="musica/007 agente secreto.mp3" AUTOSTART=true LOOP=true VOLUME="80" WIDTH="0" HEIGHT="0"><br-->
+
+				
+			
+		
+
+		<div id="footer"><center>Yeison Murillo ------ Melitza Mondrag&oacute;n ------ An&aacute;lisis y desarrollo de sistemas de informaci&oacute;n CDATT ------ 1132133</div><!--Pie de pagina-->
+
+		</body>
+</html>

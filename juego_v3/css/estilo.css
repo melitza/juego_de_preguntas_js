@@ -1,0 +1,30 @@
+html, body{
+margin:0;
+padding:0;
+height:100%;
+background-color:#999;
+}
+#capaMadre{
+width:790px;
+margin:0 auto;
+height:10%;
+}
+
+#pie{
+height: 40px;
+background-color: #999;
+color: #fff;
+text-align: left;
+clear: both;
+}
+
+
+/*******************************/
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
