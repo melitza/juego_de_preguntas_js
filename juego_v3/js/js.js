@@ -55,7 +55,7 @@ g_conjunto.push([["mmm"],
 	["B)  No, porque si se  toman la imágenes o música y no dan los derechos de autor al respectivo personaje."], 
 	["A)  Es legal porque existe un set de herramientas legales estandarizadas conocidas como las Licencias Creative Commons, se basan  en el derecho del autor, cambian el paradigma del sistema tradicional Todos los derechos reservados por una premisa más flexible Algunos derechos reservados."]]);
 
-g_conjunto.push([["mora"],	
+g_conjunto.push([["Mora"],	
 	["¿Cualquier contrato laboral es un contrato de prestación de servicios?"], 
 	["A) No, porque el contrato laboral pospone de los aportes al Sistema de Seguridad Social en cambio un contrato de prestación de servicios se caracteriza por ser un acuerdo voluntario, en donde de forma independiente y autónoma una persona trabaja. "], 
 	["B) Si, porque en ambos contratos recibe salarios mínimos dependiendo lo que se ha realizado en el trabajo."], 
